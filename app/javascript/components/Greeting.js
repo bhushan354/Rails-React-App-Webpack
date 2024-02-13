@@ -1,28 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setGreeting } from '../redux/actions/greetingActions';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greetings = useSelector((state) => state.greetings);
+  const greeting = useSelector((state) => state.greeting);
 
   useEffect(() => {
     fetch('/api/all_greeting')
       .then((response) => response.json())
       .then((data) => {
-        dispatch(setGreetings(data.greetings));
+        dispatch(setGreeting(data.greeting));
       })
-      .catch((error) => console.error('Error fetching greetings:', error));
+      .catch((error) => console.error('Error fetching random greeting:', error));
   }, [dispatch]);
 
   return (
     <div>
-      <h1>All Greetings:</h1>
-      <ul>
-        {greetings.map((greeting, index) => (
-          <li key={index}>{greeting}</li>
-        ))}
-      </ul>
+      <h1>{greeting}</h1>
     </div>
   );
 };
