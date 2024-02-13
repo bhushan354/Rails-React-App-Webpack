@@ -1,3 +1,7 @@
 class RootController < ApplicationController
-  def index; end
+
+  def index
+    render file: 'app/views/root/index.html.erb', layout: false
+  end
+
 end
