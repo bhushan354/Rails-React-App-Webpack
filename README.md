@@ -1,24 +1,148 @@
-# README
+<div align="center">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  <h3><b>Rails-React-App-Webpack</b></h3>
 
-Things you may want to cover:
+</div>
 
-* Ruby version
 
-* System dependencies
+# 📗 Table of Contents
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Rails-React-App-Webpack\] ](#-rails-react-app-webpack-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-* Configuration
+<!-- PROJECT DESCRIPTION -->
 
-* Database creation
+# 📖 [Rails-React-App-Webpack] <a name="about-project"></a>
 
-* Database initialization
+**[Rails-React-App-Webpack]** is a website built with RUBY on RAILS and react 
 
-* How to run the test suite
+## 🛠 Built With <a name="built-with"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tech Stack <a name="tech-stack"></a>
 
-* Deployment instructions
+<details>
+<summary>Language</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+    <li><a href="https://rubyonrails.org/">Rails</a></li>
+  </ul>
+</details>
 
-* ...
+### Key Features <a name="key-features"></a>
+
+- Display Apis
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+
+```sh
+ sudo apt install postgresql postgresql-contrib
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+``` sh
+git clone git@github.com:bhushan354/Rails-React-App-Webpack.git
+```
+
+### Install
+
+Install this project with:
+``` sh
+bundle install
+```
+
+
+### Usage
+
+To run tests, run the following command:
+``` sh
+  cd Rails-React-App-Webpack
+```
+
+``` sh
+  rails s
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Bhushan Deshmukh**
+
+- GitHub: [@bhushan354](https://github.com/bhushan354)
+- LinkedIn: [@bhushan354](https://www.linkedin.com/in/bhushan-deshmukh-5777851b1/)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add create blog functionality]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/bhushan354/Rails-React-App-Webpack/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please stay tune for more features
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- stanley Ramos
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[How to use Rails-React-App-Webpack interface in `irb`?]**
+``` sh
+    irb
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
