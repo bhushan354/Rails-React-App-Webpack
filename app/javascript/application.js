@@ -1,17 +1,14 @@
-//main-entry of my application
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import App from './components/App';
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-
-import { Provider } from 'react-redux'
-import store from './store'
-
-import App from '../components/App'
-
-// As of React 18
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-)
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('root')
+  );
+});
