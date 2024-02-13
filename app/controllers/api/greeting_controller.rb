@@ -4,4 +4,4 @@ module Api
       render json: { greeting: Greeting.order('RANDOM()').first&.content }
     end
   end
-end
+end   
