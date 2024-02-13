@@ -1,7 +1,8 @@
 module Api
   class GreetingController < ApplicationController
     def all_greeting
-      render json: { greetings: Greeting.order('RANDOM()').first&.content }
+      @greetings = Greeting.all
+      render json: { greetings: @greetings }, status: :ok
     end
   end
 end
