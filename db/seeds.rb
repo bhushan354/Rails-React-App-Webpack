@@ -10,9 +10,9 @@
 
 greeting_data = [
   { greeting: 'Hello!' },
-  { greeting: 'Hi there!' },
-  { greeting: 'Greetings!' },
-  { greeting: 'Good day!' },
+  { greeting: 'こんにちは!' },
+  { greeting: 'Bonjour!' },
+  { greeting: 'नमस्ते!' },
   { greeting: 'Welcome!' }
 ]
 
