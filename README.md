@@ -1,16 +1,12 @@
 <div align="center">
-
-  <img src="imuwahen_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Imuwahen</b></h3>
+  <h3><b>Rails-React-App-webpack</b></h3>
 
 </div>
 
 
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[hello-rails-react\] ](#-hello-rails-react-)
+- [📖 \[Rails-React-App-webpack\] ](#-rails-react-app-webpack-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,7 +15,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -30,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello-rails-react] <a name="about-project"></a>
+# 📖 [Rails-React-App-webpack] <a name="about-project"></a>
 
-**[hello-rails-react]**
+**[Rails-React-App-webpack]** is a website built with RUBY on RAILS which empowers the readers and give them quality content
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,12 +38,13 @@
   <ul>
     <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
     <li><a href="https://rubyonrails.org/">Rails</a></li>
+     <li><a href="https://rubyonrails.org/">React</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- Boilerplate for integrating react, redux with RoR
+- Creates React front end.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,21 +66,22 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ``` sh
-    git clone https://github.com/sagieramos/hello-rails-react
+git clone git@github.com:bhushan354/Rails-React-App-webpack.git
 ```
 
 ### Install
 
 Install this project with:
+``` sh
+bundle install
+```
 
 
 ### Usage
 
-### Run tests
-
 To run tests, run the following command:
 ``` sh
-  cd hello-rails-react
+  cd Rails-React-App-webpack
 ```
 
 ``` sh
@@ -97,15 +94,15 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Stanley Osagie Ramos**
-- GitHub: [@sagieramos](https://github.com/sagieramos)
-- Twitter: [@sagieramos](https://twitter.com/sagieramos)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
+👤 **Bhushan Deshmukh**
+
+- GitHub: [@bhushan354](https://github.com/bhushan354)
+- LinkedIn: [@bhushan354](https://www.linkedin.com/in/bhushan-deshmukh-5777851b1/)
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Develop the error page]**
-- [ ] **[Improve the UI]**
+- [ ] **[Add create blog functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +111,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sagieramos/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/bhushan354/Rails-React-App-webpack/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,14 +124,18 @@ If you like this project, please stay tune for more features
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Jehovah God
-- [Microverse Team](https://www.microverse.org/).
+- stanley Ramos
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
+
+- **[How to use Rails-React-App-webpack interface in `irb`?]**
+``` sh
+    irb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
