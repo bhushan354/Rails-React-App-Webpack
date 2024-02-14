@@ -10,15 +10,6 @@ import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const Nav = () => {
-  return (
-    <div>
-      <h1>Hi</h1>
-      <Link to="/">Back</Link>
-    </div>
-  )
-} 
-
 root.render(
   <Provider store={store}>
     <Router>
