@@ -1,15 +1,12 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Greeting from './Greeting';
+import React from 'react'
+import Greeting from './Greeting.js'
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Greeting} />
-      </Switch>
-    </Router>
-  );
+    <div>
+        <Greeting />
+    </div>
+  )
 }
 
-export default App;
+export default App

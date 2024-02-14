@@ -9,11 +9,11 @@ default: &default
 
 development:
   <<: *default
-  database: react_rails 
-
+  database: test_only
+  
 test:
   <<: *default
-  database: react_rails 
+  database: test_only
 
 production:
   <<: *default

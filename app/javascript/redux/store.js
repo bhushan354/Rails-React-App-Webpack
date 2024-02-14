@@ -1,10 +1,10 @@
-import { createStore, combineReducers } from 'redux';
-import greetingReducer from './reducers/greetingReducer';
+import { configureStore } from '@reduxjs/toolkit';
+import greetingReducer from './slices/greetingSlice';
 
-const rootReducer = combineReducers({
-  greeting: greetingReducer,
+const store = configureStore({
+  reducer: {
+    greeting: greetingReducer,
+  },
 });
-
-const store = createStore(rootReducer);
 
 export default store;

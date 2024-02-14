@@ -1,18 +1,14 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setGreeting } from '../redux/actions/greetingSlice';
+import { fetchRandomGreeting } from '../redux/actions';
+import { Link } from 'react-router-dom'
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greeting = useSelector((state) => state.greeting);
+  const greeting = useSelector((state) => state.greeting.value);
 
   useEffect(() => {
-    fetch('/api/all_greeting')
-      .then((response) => response.json())
-      .then((data) => {
-        dispatch(setGreeting(data.greeting));
-      })
-      .catch((error) => console.error('Error fetching random greeting:', error));
+    dispatch(fetchRandomGreeting());
   }, [dispatch]);
 
   return (
